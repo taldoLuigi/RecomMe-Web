@@ -1,0 +1,14 @@
+.card-dark {
+    border-radius: 16px;
+    padding: 28px;
+}
+
+.logo-img {
+    width: 85px;
+    height: 85px;
+    border-radius: 8px;
+}
+
+.welcome-title {
+    font-size: 1.6rem;
+}

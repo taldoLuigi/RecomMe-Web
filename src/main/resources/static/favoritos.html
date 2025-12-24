@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>RecomMe - Favoritos</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="favoritos.css">
+        <link rel="stylesheet" href="variables.css">
+    </head>
+    <body>
+        <nav class="recomme-nav navbar-dark fixed-top">
+            <div class="container-max d-flex align-items-center justify-content-between">
+
+                <div class="d-flex align-items-center gap-2">
+                    <img src="../img/logo.png" alt="RecomMe" width="36" height="36" class="rounded">
+                    <span class="nav-title">RecomMe</span>
+                </div>
+
+                <div class="d-flex align-items-center gap-4">
+                    <a href="home.html" class="nav-link-recomme"><i class="bi bi-house"></i> Início</a>
+                    <a href="favoritos.html" class="nav-link-recomme"><i class="bi bi-star"></i> Favoritos</a>
+                    <a href="perfil.html" class="nav-link-recomme"><i class="bi bi-person"></i> Perfil</a>
+                </div>
+
+                <div class="d-flex align-items-center gap-3">
+                    <img id="nav-avatar" src="../img/avatar-placeholder.png" alt="Avatar" width="36" height="36" class="rounded-circle border border-primary">
+                    <a href="#" id="btn-logout" class="nav-link-recomme"><i class="bi bi-box-arrow-right"></i> Sair</a>
+                </div>
+            </div>
+        </nav>
+
+        <main class="container-max" style="padding-top: 90px;">
+            <h2 class="fw-bold mb-3"><i class="bi bi-star-fill text-warning"></i> Seus Favoritos</h2>
+
+            <div id="favoritos-grid" class="card-grid">
+                <div class="fav-card">
+                    <div class="fav-icon"><i class="bi bi-film"></i></div>
+                    <h6 class="fw-semibold mt-2"></h6>
+                    <p class="text-muted-light small mb-0"></p>
+                </div>
+
+                <div class="fav-card">
+                    <div class="fav-icon pink"><i class="bi bi-tv"></i></div>
+                    <h6 class="fw-semibold mt-2"></h6>
+                    <p class="text-muted-light small mb-0"></p>
+                </div>
+
+                <div class="fav-card">
+                    <div class="fav-icon yellow"><i class="bi bi-book"></i></div>
+                    <h6 class="fw-semibold mt-2"></h6>
+                    <p class="text-muted-light small mb-0"></p>
+                </div>
+            </div>
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="global.js"></script>
+        <script src="favoritos.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>

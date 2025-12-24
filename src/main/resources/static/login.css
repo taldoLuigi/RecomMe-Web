@@ -1,0 +1,20 @@
+.login-box {
+    width: 100%;
+    max-width: 380px;
+    background: #111118;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px #0005;
+}
+
+.input-dark {
+    background: #1b1b22;
+    border: 1px solid #2d2d39;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.link-blue {
+    color: #6a7efc;
+}

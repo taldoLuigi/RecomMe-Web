@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>RecomMe - Entrar</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="variables.css">
+    </head>
+    <body>
+
+        <main class="container-max d-flex align-items-center justify-content-center" style="min-height: 78vh; padding-top: 90px;">
+            <div class="card-dark p-4 login-box">
+                <div class="text-center mb-3">
+                    <img src="../img/logo.png" alt="RecomMe" width="64" class="mb-2 rounded">
+                    <h3 class="fw-bold">Entrar</h3>
+                </div>
+
+                <form id="form-login">
+                    <label class="form-label">E-mail</label>
+                    <input id="login-email" class="input-dark w-100 mb-2" type="email" required>
+
+                    <label class="form-label">Senha</label>
+                    <div class="position-relative">
+                        <input id="login-password" class="input-dark w-100 mb-3" type="password" required>
+                        <button type="button" class="toggle-password-btn" data-target="login-password">
+                            <i class="bi bi-eye-fill"></i>
+                        </button>
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <a href="esqueci-senha.html" class="text-muted-light small">Esqueci a senha</a>
+                        <button type="submit" class="btn btn-primary">Entrar</button>
+                    </div>
+                </form>
+                <p class="small text-muted-light">Não tem conta? <a href="cadastro.html">Crie uma</a></p>
+            </div>
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="global.js"></script>
+        <script src="login.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>

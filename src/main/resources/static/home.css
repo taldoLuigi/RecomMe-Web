@@ -1,0 +1,9 @@
+.recomme-section .poster {
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-outline {
+    border-radius: 999px;
+    padding: 6px 14px;
+}

@@ -1,0 +1,17 @@
+@import url('variables.css');
+
+.recomme-section {
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.recomme-section-title {
+    font-weight: 700;
+    font-size: 1.12rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text);
+    margin-bottom: 12px; }
+.recomme-section-content {
+    margin-top: 12px;
+}

@@ -1,0 +1,72 @@
+@import url('variables.css');
+
+.profile-photo {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    border: 4px solid #37e2e2;
+
+    background-color: #155a66;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.badge-recomme {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: #fff;
+}
+
+.badge-recomme.cyan {
+    background: #155a66;
+}
+
+.badge-recomme.indigo {
+    background: #314f9f;
+}
+
+.badge-recomme.purple {
+    background: #522a87;
+}
+
+.stat-card {
+    background: #181a25;
+    padding: 18px;
+    border-radius: 12px;
+}
+
+.stat-number {
+    font-size:1.9rem;
+    font-weight:bold;
+}
+
+.text-cyan {
+    color: #37e2e2;
+}
+
+.text-pink {
+    color: #ff79c6;
+}
+
+.text-yellow {
+    color: #ffe18a;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px,1fr));
+    gap: 16px;
+}
+
+.fav-thumb {
+    background: #2a2c38;
+    height: 120px;
+    border-radius: 12px;
+    transition: .2s;
+}
+
+.fav-thumb:hover {
+    transform: translateY(-4px);
+    background: #363948; }

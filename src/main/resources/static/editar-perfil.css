@@ -1,0 +1,18 @@
+@import url('variables.css');
+
+.recomm-input {
+    background: #1b1e2a;
+    border:  solid #2a2d3c;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.input-icon {
+    background: #1b1e2a;
+    color: #9aa0b5;
+    border: 1px solid #2a2d3c;
+    display: flex;
+    align-items: center; 
+    padding: 6px 10px;
+}

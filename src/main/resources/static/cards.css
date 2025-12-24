@@ -1,0 +1,49 @@
+@import url(variables.css);
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px,1fr));
+  gap: var(--gap);
+}
+
+.recomme-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 8px;
+  transition: transform var(--transition), box-shadow var(--transition);
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.02);
+}
+.recomme-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 40px rgba(2, 6, 23, 0.6);
+}
+
+.recomme-card .poster {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  background: linear-gradient(180deg, #0f1720, #1f2937);
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.recomme-card.small .poster {
+    aspect-ratio: 16 / 9;
+}
+
+.card-title {
+    margin-top: 8px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.rating {
+    color: #f5c518;
+    font-size: 0.85rem;
+    margin-top: 4px;
+    display: block;
+}

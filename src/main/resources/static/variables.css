@@ -1,0 +1,14 @@
+:root {
+  --bg-main: #030712;
+  --surface: #0f1720;
+  --card: #111827;
+  --muted: #9ca3af;
+  --text: #e5e7eb;
+  --primary: #3b82f6;
+  --accent: #6a7efc;
+  --success: #37e2e2;
+  --radius: 12px;
+  --gap: 16px;
+  --transition: 200ms;
+  --container-max: 1200px;
+}

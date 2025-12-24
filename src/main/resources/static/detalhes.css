@@ -1,0 +1,10 @@
+@import url('variables.css');
+
+.rating {
+    color: #f5c518;
+    font-weight: 700;
+}
+
+.card-dark .poster {
+    border-radius: 10px;
+}
